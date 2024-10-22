@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url(https://png.pngtree.com/background/20210710/original/pngtree-technology-sense-shines-lines-around-advertising-background-picture-image_978492.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+a{
+    text-decoration: none ;
+    color: #000000;
+    position: relative;
+    left: 590px;
+    bottom: 80px;
+}
+
+h4{
+    background-color: white;
+    width: 10%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.card-form {
+    background:url(https://img.freepik.com/free-photo/geometric-background-yellow-and-black_23-2147668494.jpg?size=626&ext=jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    width: 600px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group input {
+    color: white;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+.submit-btn {
+    background-color: #4dff00;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+.submit-btn:hover {
+    background: linear-gradient(to right, #000000, #ff9500);
+}

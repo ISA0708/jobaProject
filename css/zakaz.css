@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    padding-bottom: 40px;
+    transition-duration: 3s;
+    background-color:black ;
+}
+
+.div-boxx{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 50px;
+    padding-top: 30px;
+}
+
+.a-box1{
+    display: flex;
+    gap: 30px;
+}
+
+.a-box2{
+    display: flex;
+    gap: 30px;
+}
+
+.txt{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+.txt:hover{
+    color: chocolate;
+    border-bottom: 2px solid rgb(80, 33, 0);
+}
